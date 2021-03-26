@@ -1,0 +1,27 @@
+{
+  "name": "serverat",
+  "version": "1.0.0",
+  "description": "\"Proyecto Software II\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ConversionJS",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Tatiana Ramirez-Jorge Acevedo\"",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express-fileupload": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.8",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongoose": "^5.7.36"
+  }
+}
